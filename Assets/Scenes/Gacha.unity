@@ -670,8 +670,6 @@ MonoBehaviour:
     prize: {fileID: 11400000, guid: 8c69fc7f655e5964bb5c18395096c05b, type: 2}
   - percentage: 20
     prize: {fileID: 11400000, guid: c46e681a46caaaf49b6bcb354a044257, type: 2}
-  - percentage: 20
-    prize: {fileID: 11400000, guid: aa4ec651d5b421f42a0ef807c4860059, type: 2}
   nothing: {fileID: 11400000, guid: aa4ec651d5b421f42a0ef807c4860059, type: 2}
 --- !u!4 &295571153
 Transform:
@@ -1198,10 +1196,10 @@ RectTransform:
   - {fileID: 255398675}
   m_Father: {fileID: 1331680444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 2.609253, y: -210}
-  m_SizeDelta: {x: 1203.8, y: -995.68}
+  m_SizeDelta: {x: -74.19995, y: 188.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701981840
 MonoBehaviour:
@@ -1345,10 +1343,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1440, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1365,8 +1363,8 @@ Canvas:
   m_GameObject: {fileID: 755627299}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 58968110}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1717,7 +1715,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -40
+  m_lineSpacing: -75
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -2073,10 +2071,10 @@ RectTransform:
   - {fileID: 485261085}
   m_Father: {fileID: 1331680444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 2.609253, y: 52}
-  m_SizeDelta: {x: 1203.8, y: -995.68}
+  m_SizeDelta: {x: -74.19995, y: 188.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062561359
 MonoBehaviour:
@@ -2816,10 +2814,10 @@ RectTransform:
   - {fileID: 356869911}
   m_Father: {fileID: 1331680444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 2.609253, y: -467}
-  m_SizeDelta: {x: 1203.8, y: -995.68}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 2.609253, y: -466.99994}
+  m_SizeDelta: {x: -74.19995, y: 188.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326403642
 MonoBehaviour:
@@ -2956,7 +2954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.6071167, y: 753.6604}
+  m_AnchoredPosition: {x: -2.6071777, y: 753.6604}
   m_SizeDelta: {x: -161.6371, y: -1725.4208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331680445
@@ -3275,7 +3273,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -40
+  m_lineSpacing: -75
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -3583,7 +3581,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -40
+  m_lineSpacing: -75
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -3656,10 +3654,10 @@ RectTransform:
   - {fileID: 758421054}
   m_Father: {fileID: 1331680444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 2.609253, y: 303.2771}
-  m_SizeDelta: {x: 1203.8, y: -995.68}
+  m_SizeDelta: {x: -74.19995, y: 200.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529656991
 MonoBehaviour:
@@ -4078,7 +4076,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -40
+  m_lineSpacing: -75
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
