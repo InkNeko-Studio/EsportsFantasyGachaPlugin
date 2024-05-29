@@ -20,6 +20,8 @@ public class GachaManager : MonoBehaviour
 
     public List<GachaItem> items;
 
+    public Prize nothing;
+
     private void Start()
     {
         foreach (var item in items)
@@ -30,7 +32,7 @@ public class GachaManager : MonoBehaviour
 
     public Prize RunGacha()
     {
-        float number = Random.Range(0f, 100f);
+        float number = Random.Range(0.1f, 100f);
         float accumulator = 0f;
         foreach (var item in items)
         {
@@ -39,7 +41,7 @@ public class GachaManager : MonoBehaviour
                 return item.prize;
         }
 
-        return null;
+        return nothing;
     }
 
     [ContextMenu("Test")]
