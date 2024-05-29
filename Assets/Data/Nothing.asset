@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Nothing
   m_EditorClassIdentifier: 
   name: Nada
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: be9eb78dd88839f429afc2c4458c8c94, type: 3}

@@ -16,20 +16,6 @@ public class Tasks : MonoBehaviour
     public UnityEngine.UI.Image heart3;
     public UnityEngine.UI.Image heart4;
     
-    
-    
-    
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void TaskComplete(int id)
     {
         if (id == 1)
