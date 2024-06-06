@@ -21,9 +21,7 @@ public class PrizeDisplay : MonoBehaviour
         number += tasks.task3 ? 1 : 0;
         number += tasks.task4 ? 1 : 0;
 
-        var baker = false;
-        var inkneko = false;
-        var facens = false;
+        var sticker = false;
         
         for (int i = 0; i < number; i++)
         {
@@ -33,23 +31,37 @@ public class PrizeDisplay : MonoBehaviour
 
             if (prize.name == "Baker")
             {
-                if (baker == true)
+                if (sticker == true)
                     prize = nothing;
-                baker = true;
+                sticker = true;
+            }
+            
+            if (prize.name == "Frosto")
+            {
+                if (sticker == true)
+                    prize = nothing;
+                sticker = true;
+            }
+            
+            if (prize.name == "Icecream")
+            {
+                if (sticker == true)
+                    prize = nothing;
+                sticker = true;
             }
 
             if (prize.name == "Inkneko")
             {
-                if (inkneko == true)
+                if (sticker == true)
                     prize = nothing;
-                inkneko = true;
+                sticker = true;
             }
 
             if (prize.name == "Facens")
             {
-                if (facens == true)
+                if (sticker == true)
                     prize = nothing;
-                facens = true;
+                sticker = true;
             }
 
             image.sprite = prize.image;
